@@ -29,6 +29,9 @@ const Reports = () => {
     ).length,
   }));
 
+  const totalTasks = tasks.length;
+  const completedTasks = getTaskCount("Completed");
+
   return (
     <div className="space-y-8">
       <div>
